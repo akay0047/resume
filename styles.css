@@ -1,0 +1,207 @@
+body{
+  font-family: 'Montserrat';
+}
+
+.nav{
+  background-color: #F7EDDB;
+}
+
+.nav-item{
+  padding: 25px 15px;
+}
+
+.nav-link{
+  font-family: "Montserrat";
+  font-weight: bold;
+  color: #5C3D2E;
+}
+
+#title{
+  background-color: #F7EDDB;
+  text-align: center;
+  padding: 4% 0 0 0;
+  color: #5C3D2E;
+}
+
+h1{
+  font-family: "Great Vibes", cursive;
+  font-size: 4.5rem;
+  font-weight: bold;
+  letter-spacing: 0.1em;;
+}
+
+h3{
+  font-family: "Caveat";
+  font-size: 2.5rem;
+}
+
+.image1{
+  height: 450px;
+}
+
+#work{
+  background-color: #DCD7C9;
+  padding: 5% 2%;
+}
+
+h2{
+  font-family: "outfit";
+  padding: 3% 1% 0 1%;
+}
+
+.comp, .role{
+  font-family: "Montserrat";
+  font-weight: bold;
+  color: #3F4E4F;
+  letter-spacing: 0.1em;
+}
+
+h4{
+  font-family: "outfit";
+  font-weight: bold;
+  padding: 2% 0% 0 3%;
+  letter-spacing: 0.1em;
+}
+
+h5{
+  font-family: "outfit";
+  padding: 1% 0% 2% 5%;
+  line-height: 2em;
+  letter-spacing: 0.1em;
+}
+
+#skills{
+  background-color: #FFC4C4;
+  padding: 5% 2%;
+}
+
+.skill-head{
+  letter-spacing: 0.1em;
+  font-weight: bold;
+  font-family: "Outfit";
+  padding: 3% 1% 0 1%;
+}
+
+.column-1{
+  font-family: "outfit";
+  font-weight: bold;
+  font-size: 19px;
+  padding: 1% 1% 1% 15%;
+}
+
+.column-6{
+  padding: 1% 1% 1% 3%;
+}
+
+#projects{
+  background-color: #F0EABE;
+  padding: 5% 2%;
+}
+
+.pro-head{
+  font-family: "Outfit";
+}
+
+.pro{
+  font-weight: bold;
+  letter-spacing: 0.1em;
+
+}
+
+#edu{
+  background-color: #FCF8E8;
+  padding: 5% 2%;
+  text-align: center;
+}
+
+.edu-head{
+  font-size: 3rem;
+  font-family: "Ubuntu";
+}
+
+.sub-head{
+  font-family: "Ubuntu";
+}
+
+.vtu{
+  width: 315px;
+}
+
+#contact{
+  background-color: #DAE5D0;
+  padding: 5% 2%;
+  text-align: center;
+}
+
+.hire{
+  color: #3F4E4F;
+  font-family: "Outfit";
+  font-size: 25px;
+}
+
+.social-icons{
+  color: #3F4E4F;
+  margin: 20px 25px;
+}
+
+.copyright{
+  font-size: 15px;
+  color: #3F4E4F;
+  padding-top: 25px;
+}
+
+@media (max-width: 1028px) {
+  .nav{
+    text-align: center;
+  }
+
+  .nav-item{
+    padding: 6px 6px;
+  }
+
+  h1{
+    padding: 25px 0;
+  }
+
+  h3{
+    padding-bottom: 8px;
+  }
+
+  #work{
+    padding: 25px 10px;
+  }
+
+  .comp,.role{
+    color: red;
+  }
+
+  h2,h4{
+    text-align: center;
+  }
+
+  .column-1{
+    padding: 1% 0;
+  }
+
+  .column-1,.column-6{
+    text-align: center;
+  }
+
+  #projects{
+    line-height: 1.5rem;
+    padding: 25px 8px;
+  }
+
+  .pro{
+    color: red;
+  }
+
+  .vel-univ{
+    padding: 5% 0 2%;
+  }
+
+  .social-icons{
+    color: #3F4E4F;
+    margin: 20px 20px;
+  }
+}
